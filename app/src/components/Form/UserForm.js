@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TrashIcon } from "@heroicons/react/24/solid";
 import Info from "./Info";
+import { sendEmail } from "../Utils/Email";
 
 const UserForm = () => {
   const [userInput, setUserInput] = useState({
@@ -31,14 +32,9 @@ const UserForm = () => {
     });
   };
 
-  function sendEmail() {
-    console.log("send");
-  }
-
   return (
     <>
       <Info />
-
       <div className="flex justify-center">
         <form onSubmit={submitHandler}>
           <div className="bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl drop-shadow-2xl space-y-8 selection:bg-fuchsia-300 selection:text-fuchsia-900">
