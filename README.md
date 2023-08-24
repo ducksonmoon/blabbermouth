@@ -3,6 +3,7 @@ Send anonymous emails to chatty colleagues at work. You need to focus.
 
 Subsequently, the email addresses and names are logged to identify the most talkative individuals within the company. They are then evaluated based on the quantity of sent emails, resulting in a rating system.
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 > 🤡 Yet another project left incomplete, as it required further backend development and additional effort. Regrettably, time constraints compelled me to set it aside unfinished.
 
